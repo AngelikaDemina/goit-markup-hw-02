@@ -1,10 +1,16 @@
 body{
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    color:  #757575;
+    
+
 }
 
 
 .navigation {
-    background-color: beige;
+    background-color: #FFFFFF;
+    padding: 15px;
+    font-size: 15px;
 
 }
     
@@ -29,5 +35,99 @@ body{
     color: #000000;
 }
 
-/* .navigation-menu > ul > li > a { */
+ .navigation-menu > ul > li > a:hover { 
+     color: #2196F3;
+     text-decoration: underline;
+ }
 
+ .special {
+    font-size: 44px;
+    background-color: #2F303A;
+    color: #FFFFFF;
+
+}
+
+.special > button {
+    font-size 16px;
+    color: #2196F3;
+    text-align: center;
+
+
+}
+
+.hero > ul > li > h3{
+    font-size: 14px;
+    color: black;
+
+}
+.hero > ul > li > p{
+    font-size: 14px;
+
+
+
+}
+
+.about > h2 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    }
+
+
+.team {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+
+
+}
+.team > ul > li > h3 {
+    font-size: 16px;
+    color: #212121
+    text-align: center;
+    
+}
+
+.team > ul > li > p {
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+}
+
+.footer > div > a{
+    font-family: Raleway;
+    font-size: 26px;
+    
+ }
+ .footer > div > address{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+
+
+}
+
+
+
+ .section > ul > li > button {
+    font-family: inherit;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+
+ }
+
+
+
+
+.section > ul > li > button:hover{
+    background-color: #2196F3;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+    
