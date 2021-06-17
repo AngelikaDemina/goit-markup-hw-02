@@ -41,9 +41,14 @@ body{
  }
 
  .special {
+    display: flex;
+    height: 400px;
     font-size: 44px;
     background-color: #2F303A;
     color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 
