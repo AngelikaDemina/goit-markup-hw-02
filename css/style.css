@@ -2,16 +2,70 @@ body{
     font-family: "Roboto", sans-serif;
     margin: 0;
     color:  #757575;
+    line-height:normal;
     
 
+}
+
+header{
+    background-color: #FFFFFF;
+    font-size: bold;
+    list-style-type: none;
+
+}
+
+.mail {
+text-decoration: none;
+color: #757575;
+list-style-type: none;
+
+}
+
+.adress > ul > li:hover{
+    color: #2196F3;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.phone {
+text-decoration: none;
+color: #757575;
 }
 
 
 .navigation {
     background-color: #FFFFFF;
-    padding: 15px;
+    X constraint: Center
+    Y constraint: Center
     font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+   
 
+}
+
+.logo-body
+{ text-decoration: none;
+ align: Left;
+Font style: Bold
+Font size: 26px
+Line height: 31px
+Line height: 100%
+Align: Left
+Vertical align: Top
+Letter spacing: 3%
+
+
+}
+
+.firstpart{
+    color: #2196F3;
+    hover: none
+
+}
+.secondpart{
+    color:#000000;
 }
     
 .navigation > ul {
@@ -33,6 +87,14 @@ body{
     cursor: pointer;
     font-size: 12px;
     color: #000000;
+
+}
+.navigation > ul > li > a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #2196F3;
+    
 }
 
  .navigation-menu > ul > li > a:hover { 
@@ -133,6 +195,13 @@ body{
 
 
 
+
+
+.logo-footer
+{ text-decoration: none;
+
+}
+    
 
 
     
