@@ -7,105 +7,104 @@ body{
 
 }
 
+element.style{
+color:black
+
+
+}
+
+
 header{
     background-color: #FFFFFF;
     font-size: bold;
-    list-style-type: none;
+    
 
+}
+
+header > ul{
+    list-style-type: none;
 }
 
 .mail {
 text-decoration: none;
 color: #757575;
-list-style-type: none;
+font-size: 14px;
+
 
 }
-
-.adress > ul > li:hover{
+.mail:hover{
     color: #2196F3;
-    text-decoration: none;
-    cursor: pointer;
-    
-}
 
+}
 .phone {
-text-decoration: none;
-color: #757575;
-}
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+    }
 
+    .phone:hover{
+        color: #2196F3;
+
+    }
+
+
+.part{
+    color:black;
+}
+.logo-body{ 
+ color:#2196F3;   
+text-decoration: none;
+font-family: "Raleway";
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0,03em;
+}
 
 .navigation {
     background-color: #FFFFFF;
-    X constraint: Center
-    Y constraint: Center
     font-size: 15px;
     text-decoration: none;
     cursor: pointer;
-   
-
-}
-
-.logo-body
-{ text-decoration: none;
- align: Left;
-Font style: Bold
-Font size: 26px
-Line height: 31px
-Line height: 100%
-Align: Left
-Vertical align: Top
-Letter spacing: 3%
-
-
-}
-
-.firstpart{
-    color: #2196F3;
-    hover: none
-
-}
-.secondpart{
-    color:#000000;
-}
-    
-.navigation > ul {
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.navigation ul li {
     display: inline-block;
-    margin-right: 20px;
-   
+    
 
+}
+
+.navigation > ul {
+    list-style-type: none ;
 }
 .navigation > ul > li > a {
     text-decoration: none;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 14px;
     color: #000000;
+    display: inline-block;
+    
 
 }
 .navigation > ul > li > a:hover {
     text-decoration: none;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 14px;
     color: #2196F3;
+    display: inline-block;
+    
     
 }
 
  .navigation-menu > ul > li > a:hover { 
      color: #2196F3;
      text-decoration: underline;
+     display: inline-block;
+     
  }
 
+
  .special {
-    display: flex;
+    
     height: 400px;
-    font-size: 44px;
+    font-size: 40px;
     background-color: #2F303A;
     color: #FFFFFF;
     justify-content: center;
@@ -122,6 +121,12 @@ Letter spacing: 3%
 
 }
 
+.hero > ul {
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
 .hero > ul > li > h3{
     font-size: 14px;
     color: black;
@@ -133,7 +138,10 @@ Letter spacing: 3%
 
 
 }
-
+.about > ul {
+    text-decoration: none;
+    list-style-type: none;
+}
 .about > h2 {
     font-size: 36px;
     color: black;
@@ -144,8 +152,14 @@ Letter spacing: 3%
 .team {
     font-size: 36px;
     color: black;
-    text-align: center;
+   
 
+
+}
+
+.team > ul {
+ text-decoration: none;
+    list-style-type: none;
 
 }
 .team > ul > li > h3 {
@@ -196,12 +210,81 @@ Letter spacing: 3%
 
 
 
-
-.logo-footer
-{ text-decoration: none;
+.footer{
+    height: 400px;
+    font-size: 44px;
+    background-color: #2F303A;
+    color: #FFFFFF;
+    justify-content: center;
 
 }
+
+.contact{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    color:  #FFFFFF;
+    line-height:normal;
+    font-style: normal;
+    text-decoration: none ;
+    list-style-type: none;
     
+}
+.logo-footer
+{ text-decoration: none;
+    color:#2196F3;   
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0,03em;
+    
+}
+.contact > ul {
+    text-decoration: none ;
+    list-style-type: none;
+
+}
+
+.parttwo{
+    color: #FFFFFF
+}
 
 
+.sectionportfolio > ul {
+    text-decoration: none ;
+    list-style-type: none;
+
+}
+
+.sectionportfolio > ul > li  button:hover{
+    background-color: #2196F3;
+    text-decoration: underline;{
+
+}
+
+.image {
+    font-size: 36px;
+    color: black;
+   
+
+
+}
+
+.image > ul {
+ text-decoration: none;
+    list-style-type: none;
+
+}
+.image > ul > li > h3 {
+    font-size: 16px;
+    color: #212121
+    text-align: center;
     
+}
+
+.image > ul > li > p {
+    font-size: 16px;
+    color: #757575;
+    text-align: center;
+}

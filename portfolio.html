@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <meta charset="UTF-8"/>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap"/>
-  
-  </head>
-  <body>
-    <!-- Шапка сайта -->
-
-    <header class="header">
-
-        <address>
-         <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-         <a class="phone" href="tel:+380961111111">tel:+38 096 111 11 11</a>
-        </address>
-        
-            </header> 
+<head>
    
-      <nav class="navigation">
-        <a class="logo-body" href="#"> <span class="firstlpart">Web</span> <span class="secondpart">Studio</span></a>
+    <title>  Портфолио </title>
+    <link href="./css/style.css" rel="stylesheet"/>    
+    <meta charset="UTF-8">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.4.0/modern-normalize.min.css" integrity="sha512-bCZjCmOz1WUgFj9b7JIKza2J1dWOiDd5/odYgEkyK+lpFRHS+HLHrg4Gb9TFGLUikvrO6euu6SG7GywjWVzMOg==" crossorigin="anonymous" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <nav class="navigation"> 
+        <a class="logo-body" href="#"> Web<span class="part">Studio</span></a>
          <ul> 
             <li>
                 <a href="./index.html">Студия</a>
@@ -34,13 +26,25 @@
             <li>
                 <a href="#">Контакты</a>
             </li>
+            
+        </ul>
+    </nav>
+    <!-- Шапка сайта -->
+    <header class="header">
+
+<ul>
+ <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+<li><a class="phone" href="tel:+380961111111">tel:+38 096 111 11 11</a> </li>
+</ul>
+
+    </header> 
+      <!-- /Шапка сайта -->
     
-    <!-- /Шапка сайта -->
 
     <main>
       <!-- TOP -->
-      <section class="section" >
-          <h2>Портфолио</h2>
+      <section class="sectionportfolio" >
+          <!-- <h2>#</h2>/ -->
         <ul>
           <li><button type="button">Все</button></li>
           <li><button type="button">Веб-сайты</button></li>
@@ -49,8 +53,10 @@
           <li><button type="button">Маркетинг</button></li>
         </ul>
       
+      </section>
 
-      <ul>
+      <section class="image">  
+      <ul> 
         <li>
           <a href="#">
             <img src="./img/portfolio/techno.jpg" alt="технокряк" width="370" height="294"/>
@@ -124,24 +130,28 @@
         </li>
       </ul>
     </section>
+  
     </main>
 
     <footer class="footer">
           
-        <div>
-            <a class="logo-footer"  href="#"> WebStudio</a>
-            
-        <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@example.com">info@example.com</a>
-             <a href="tel:+380991111111">tel:+38 099 111 11 11</a>
-            </address>
+      <div>
+          <a class="logo-footer" href="#"> Web<span class="parttwo">Studio</span></a>
+          
+      <address class="contact">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+           <ul>
+              <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+             <li><a class="phone" href="tel:+380961111111">tel:+38 096 111 11 11</a> </li>
+             </ul>
+          </address>
 
-        </div>
+      </div>
+
   
-    
 
 </footer>
+
    
     
   </body>
