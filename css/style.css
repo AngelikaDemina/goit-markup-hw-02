@@ -291,6 +291,9 @@ letter-spacing: 0,03em;
 
 }
 
+.sectionportfolion > ul > li .now {
+    color: #2196F3;
+}
 .sectionportfolio > ul > li  button:hover{
     background-color: #2196F3;
     color:#FFFFFF;
